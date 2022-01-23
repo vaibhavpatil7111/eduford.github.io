@@ -6,7 +6,7 @@
   min-height: 100vh;
   width: 100%;
   /* background-image: url(img/banner.png); */
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/IMG_2510.JPG );
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/banner.png);
   /* background-image: url(img/IMG_2510.JPG); */
   background-position: center;
   background-size: cover;
