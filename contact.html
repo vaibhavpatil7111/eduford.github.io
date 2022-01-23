@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduinfo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLink">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Content Us</h1>
+    </section>
+
+
+      <!-- -------------Content content-------------- -->
+      <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4493.5503373916545!2d73.4265344911973!3d18.726254198631253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be801860eae6741%3A0x7d950c2be2c7fdd8!2sSKN%20SINHGAD%20INSTITUTE%20OF%20TECHNOLOGY%20AND%20SCIENCE%20-%5BSKNSITS%5D%20LONAVALA%2C%20PUNE!5e0!3m2!1sen!2sin!4v1642526421115!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+
+      <section class="contact-us">
+        <div class="row">
+          <div class="contact-col">
+            <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Pune-Mumbai Highway</h5>
+              <p>Lonavala,Pune, India</p>
+            </span>
+            </div>
+            <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+91 9418161211</h5>
+              <p>Lonavala,Pune, India</p>
+            </span>
+            </div>
+            <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>info@skncollege.com</h5>
+              <p>Email us your query</p>
+            </span>
+            </div>
+          </div>
+          <div class="contact-col">
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <!-- -------------FOOTER-------------- -->
+
+    <section class="footer">
+      <h1>About us</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, eum
+        minima quo cumque ea est! <br />
+        Tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+        consequatur reprehenderit voluptas aliquid,
+      </p>
+
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by Vaibhav Patil</p>
+    </section>
+
+    <!-- Javascript for toogle menu -->
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0px";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

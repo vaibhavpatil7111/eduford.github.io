@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduinfo</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLink">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html"> CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our certificate & Online Programs For 2022</h1>
+    </section>
+
+
+      <!-- -------------Blog content-------------- -->
+
+      <section class="blog-content">
+
+        <div class="row">
+          <div class="blog-left">
+            <img src="img/certificate.jpg" alt="">
+            <h1>Our certificate & Online Programs For 2022</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quia aliquam ab eveniet, consectetur eaque ad obcaecati quis! Assumenda placeat qui tenetur, vel nobis iste? Possimus cumque facilis alias aut?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quia aliquam ab eveniet, consectetur eaque ad obcaecati quis! Assumenda placeat qui tenetur, vel nobis iste? Possimus cumque facilis alias aut? Lorem                                                   ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus explicabo neque quibusdam fugit. Iste consectetur asperiores quisquam dolore voluptatem eius!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quia aliquam ab eveniet, consectetur eaque ad obcaecati quis! Assumenda placeat qui tenetur, vel nobis iste? Possimus cumque facilis alias aut? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus explicabo neque quibusdam fugit. Iste consectetur asperiores quisquam dolore voluptatem eius!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quia aliquam ab eveniet, consectetur eaque ad obcaecati quis! Assumenda placeat qui tenetur, vel nobis iste? Possimus cumque facilis alias aut? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus explicabo neque quibusdam fugit. Iste consectetur asperiores quisquam dolore voluptatem eius!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quia aliquam ab eveniet, consectetur eaque ad obcaecati quis! Assumenda placeat qui tenetur, vel nobis iste? Possimus cumque facilis alias aut? 123455</p>
+            <br>
+
+
+            <div class="comment-box">
+
+              <h3>Leave a comment</h3>
+
+              <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="sumbit" class="hero-btn red-btn">POST COMMENT</button>
+              </form>
+
+            </div>
+
+          </div>
+          <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+              <span>Business Analytics</span>
+              <span>21</span>
+            </div>
+             <div> 
+               <span>Data Science</span>
+              <span>28</span> 
+              </div>
+             <div> 
+               <span>Machine Learning</span>
+              <span>15</span> 
+              </div>
+             <div> 
+               <span>computer Science</span>
+              <span>43</span> 
+              </div>
+             <div> 
+               <span>AutoCad</span>
+              <span>42</span> 
+              </div>
+             <div> 
+               <span>Commerce</span>
+              <span>30</span> 
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+    <!-- -------------FOOTER-------------- -->
+
+    <section class="footer">
+      <h1>About us</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, eum
+        minima quo cumque ea est! <br />
+        Tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+        consequatur reprehenderit voluptas aliquid,
+      </p>
+
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by Vaibhav Patil</p>
+    </section>
+
+    <!-- Javascript for toogle menu -->
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0px";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
