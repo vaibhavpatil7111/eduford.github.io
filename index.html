@@ -13,20 +13,7 @@
   </head>
   <body>
     <section class="header">
-      <nav>
-        <a href="index.html"><img src="img/logo.png" /></a>
-        <div class="nav-links" id="navLink">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about us.html">ABOUT US</a></li>
-            <li><a href="course.html">COURSE</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html"> CONTACT </a></li>
-          </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
+      <div id="navbar-container"></div>
       <div class="text-box">
         <h1>World Biggest University</h1>
         <p>
@@ -231,16 +218,7 @@
       <p>Made with <i class="fa fa-heart"></i> by Vaibhav Patil</p>
     </section>
 
-    <!-- Javascript for toogle menu -->
-    <script>
-      var navLink = document.getElementById("navLink");
-
-      function showMenu() {
-        navLink.style.right = "0px";
-      }
-      function hideMenu() {
-        navLink.style.right = "-200px";
-      }
-    </script>
+    <!-- Load navbar component -->
+    <script src="navbar.js"></script>
   </body>
 </html>
