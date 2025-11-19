@@ -2,7 +2,7 @@
 
 A modern, responsive university website built with HTML, CSS, and JavaScript featuring a dynamic navigation system and engaging user interface.
 
-🌐 **Live Demo:** https://vaibhavpatil7111.github.io/eduford.github.io/
+🌐 **Live Demo:** https://eduford-college.vercel.app/
 
 ## 📋 Table of Contents
 - [Features](#features)
@@ -167,7 +167,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Vaibhav Patil**
 - GitHub: [@vaibhavpatil7111](https://github.com/vaibhavpatil7111)
-- Website: [Eduford University](https://vaibhavpatil7111.github.io/eduford.github.io/)
+- Website: [Eduford University](https://eduford-college.vercel.app/)
 
 ## 🙏 Acknowledgments
 
